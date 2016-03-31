@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DE64B571CAD7ECE00AF202A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE64B561CAD7ECE00AF202A /* main.m */; };
+		6DE64B5A1CAD7ECE00AF202A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE64B591CAD7ECE00AF202A /* AppDelegate.m */; };
+		6DE64B5D1CAD7ECE00AF202A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE64B5C1CAD7ECE00AF202A /* ViewController.m */; };
+		6DE64B601CAD7ECE00AF202A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DE64B5E1CAD7ECE00AF202A /* Main.storyboard */; };
+		6DE64B621CAD7ECE00AF202A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DE64B611CAD7ECE00AF202A /* Assets.xcassets */; };
+		6DE64B651CAD7ECE00AF202A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DE64B631CAD7ECE00AF202A /* LaunchScreen.storyboard */; };
+		6DE64B701CAD7ECE00AF202A /* FMLPulsingViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE64B6F1CAD7ECE00AF202A /* FMLPulsingViewTests.m */; };
+		6DE64B7B1CAD7ECE00AF202A /* FMLPulsingViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE64B7A1CAD7ECE00AF202A /* FMLPulsingViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6DE64B6C1CAD7ECE00AF202A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DE64B4A1CAD7ECE00AF202A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DE64B511CAD7ECE00AF202A;
+			remoteInfo = FMLPulsingView;
+		};
+		6DE64B771CAD7ECE00AF202A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DE64B4A1CAD7ECE00AF202A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DE64B511CAD7ECE00AF202A;
+			remoteInfo = FMLPulsingView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6DE64B521CAD7ECE00AF202A /* FMLPulsingView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FMLPulsingView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DE64B561CAD7ECE00AF202A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6DE64B581CAD7ECE00AF202A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6DE64B591CAD7ECE00AF202A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6DE64B5B1CAD7ECE00AF202A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6DE64B5C1CAD7ECE00AF202A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6DE64B5F1CAD7ECE00AF202A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6DE64B611CAD7ECE00AF202A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DE64B641CAD7ECE00AF202A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6DE64B661CAD7ECE00AF202A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DE64B6B1CAD7ECE00AF202A /* FMLPulsingViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMLPulsingViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DE64B6F1CAD7ECE00AF202A /* FMLPulsingViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMLPulsingViewTests.m; sourceTree = "<group>"; };
+		6DE64B711CAD7ECE00AF202A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DE64B761CAD7ECE00AF202A /* FMLPulsingViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMLPulsingViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DE64B7A1CAD7ECE00AF202A /* FMLPulsingViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMLPulsingViewUITests.m; sourceTree = "<group>"; };
+		6DE64B7C1CAD7ECE00AF202A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DE64B4F1CAD7ECE00AF202A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DE64B681CAD7ECE00AF202A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DE64B731CAD7ECE00AF202A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6DE64B491CAD7ECE00AF202A = {
+			isa = PBXGroup;
+			children = (
+				6DE64B541CAD7ECE00AF202A /* FMLPulsingView */,
+				6DE64B6E1CAD7ECE00AF202A /* FMLPulsingViewTests */,
+				6DE64B791CAD7ECE00AF202A /* FMLPulsingViewUITests */,
+				6DE64B531CAD7ECE00AF202A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DE64B531CAD7ECE00AF202A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DE64B521CAD7ECE00AF202A /* FMLPulsingView.app */,
+				6DE64B6B1CAD7ECE00AF202A /* FMLPulsingViewTests.xctest */,
+				6DE64B761CAD7ECE00AF202A /* FMLPulsingViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DE64B541CAD7ECE00AF202A /* FMLPulsingView */ = {
+			isa = PBXGroup;
+			children = (
+				6DE64B581CAD7ECE00AF202A /* AppDelegate.h */,
+				6DE64B591CAD7ECE00AF202A /* AppDelegate.m */,
+				6DE64B5B1CAD7ECE00AF202A /* ViewController.h */,
+				6DE64B5C1CAD7ECE00AF202A /* ViewController.m */,
+				6DE64B5E1CAD7ECE00AF202A /* Main.storyboard */,
+				6DE64B611CAD7ECE00AF202A /* Assets.xcassets */,
+				6DE64B631CAD7ECE00AF202A /* LaunchScreen.storyboard */,
+				6DE64B661CAD7ECE00AF202A /* Info.plist */,
+				6DE64B551CAD7ECE00AF202A /* Supporting Files */,
+			);
+			path = FMLPulsingView;
+			sourceTree = "<group>";
+		};
+		6DE64B551CAD7ECE00AF202A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DE64B561CAD7ECE00AF202A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6DE64B6E1CAD7ECE00AF202A /* FMLPulsingViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				6DE64B6F1CAD7ECE00AF202A /* FMLPulsingViewTests.m */,
+				6DE64B711CAD7ECE00AF202A /* Info.plist */,
+			);
+			path = FMLPulsingViewTests;
+			sourceTree = "<group>";
+		};
+		6DE64B791CAD7ECE00AF202A /* FMLPulsingViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6DE64B7A1CAD7ECE00AF202A /* FMLPulsingViewUITests.m */,
+				6DE64B7C1CAD7ECE00AF202A /* Info.plist */,
+			);
+			path = FMLPulsingViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DE64B511CAD7ECE00AF202A /* FMLPulsingView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DE64B7F1CAD7ECE00AF202A /* Build configuration list for PBXNativeTarget "FMLPulsingView" */;
+			buildPhases = (
+				6DE64B4E1CAD7ECE00AF202A /* Sources */,
+				6DE64B4F1CAD7ECE00AF202A /* Frameworks */,
+				6DE64B501CAD7ECE00AF202A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMLPulsingView;
+			productName = FMLPulsingView;
+			productReference = 6DE64B521CAD7ECE00AF202A /* FMLPulsingView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6DE64B6A1CAD7ECE00AF202A /* FMLPulsingViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DE64B821CAD7ECE00AF202A /* Build configuration list for PBXNativeTarget "FMLPulsingViewTests" */;
+			buildPhases = (
+				6DE64B671CAD7ECE00AF202A /* Sources */,
+				6DE64B681CAD7ECE00AF202A /* Frameworks */,
+				6DE64B691CAD7ECE00AF202A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DE64B6D1CAD7ECE00AF202A /* PBXTargetDependency */,
+			);
+			name = FMLPulsingViewTests;
+			productName = FMLPulsingViewTests;
+			productReference = 6DE64B6B1CAD7ECE00AF202A /* FMLPulsingViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6DE64B751CAD7ECE00AF202A /* FMLPulsingViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DE64B851CAD7ECE00AF202A /* Build configuration list for PBXNativeTarget "FMLPulsingViewUITests" */;
+			buildPhases = (
+				6DE64B721CAD7ECE00AF202A /* Sources */,
+				6DE64B731CAD7ECE00AF202A /* Frameworks */,
+				6DE64B741CAD7ECE00AF202A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DE64B781CAD7ECE00AF202A /* PBXTargetDependency */,
+			);
+			name = FMLPulsingViewUITests;
+			productName = FMLPulsingViewUITests;
+			productReference = 6DE64B761CAD7ECE00AF202A /* FMLPulsingViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DE64B4A1CAD7ECE00AF202A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Damien;
+				TargetAttributes = {
+					6DE64B511CAD7ECE00AF202A = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					6DE64B6A1CAD7ECE00AF202A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 6DE64B511CAD7ECE00AF202A;
+					};
+					6DE64B751CAD7ECE00AF202A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 6DE64B511CAD7ECE00AF202A;
+					};
+				};
+			};
+			buildConfigurationList = 6DE64B4D1CAD7ECE00AF202A /* Build configuration list for PBXProject "FMLPulsingView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DE64B491CAD7ECE00AF202A;
+			productRefGroup = 6DE64B531CAD7ECE00AF202A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DE64B511CAD7ECE00AF202A /* FMLPulsingView */,
+				6DE64B6A1CAD7ECE00AF202A /* FMLPulsingViewTests */,
+				6DE64B751CAD7ECE00AF202A /* FMLPulsingViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DE64B501CAD7ECE00AF202A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DE64B651CAD7ECE00AF202A /* LaunchScreen.storyboard in Resources */,
+				6DE64B621CAD7ECE00AF202A /* Assets.xcassets in Resources */,
+				6DE64B601CAD7ECE00AF202A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DE64B691CAD7ECE00AF202A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DE64B741CAD7ECE00AF202A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DE64B4E1CAD7ECE00AF202A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DE64B5D1CAD7ECE00AF202A /* ViewController.m in Sources */,
+				6DE64B5A1CAD7ECE00AF202A /* AppDelegate.m in Sources */,
+				6DE64B571CAD7ECE00AF202A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DE64B671CAD7ECE00AF202A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DE64B701CAD7ECE00AF202A /* FMLPulsingViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DE64B721CAD7ECE00AF202A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DE64B7B1CAD7ECE00AF202A /* FMLPulsingViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DE64B6D1CAD7ECE00AF202A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DE64B511CAD7ECE00AF202A /* FMLPulsingView */;
+			targetProxy = 6DE64B6C1CAD7ECE00AF202A /* PBXContainerItemProxy */;
+		};
+		6DE64B781CAD7ECE00AF202A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DE64B511CAD7ECE00AF202A /* FMLPulsingView */;
+			targetProxy = 6DE64B771CAD7ECE00AF202A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6DE64B5E1CAD7ECE00AF202A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DE64B5F1CAD7ECE00AF202A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6DE64B631CAD7ECE00AF202A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DE64B641CAD7ECE00AF202A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DE64B7D1CAD7ECE00AF202A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6DE64B7E1CAD7ECE00AF202A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DE64B801CAD7ECE00AF202A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FMLPulsingView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mazengyi.FMLPulsingView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6DE64B811CAD7ECE00AF202A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FMLPulsingView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mazengyi.FMLPulsingView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6DE64B831CAD7ECE00AF202A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FMLPulsingViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mazengyi.FMLPulsingViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FMLPulsingView.app/FMLPulsingView";
+			};
+			name = Debug;
+		};
+		6DE64B841CAD7ECE00AF202A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FMLPulsingViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mazengyi.FMLPulsingViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FMLPulsingView.app/FMLPulsingView";
+			};
+			name = Release;
+		};
+		6DE64B861CAD7ECE00AF202A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FMLPulsingViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mazengyi.FMLPulsingViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FMLPulsingView;
+			};
+			name = Debug;
+		};
+		6DE64B871CAD7ECE00AF202A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FMLPulsingViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mazengyi.FMLPulsingViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FMLPulsingView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DE64B4D1CAD7ECE00AF202A /* Build configuration list for PBXProject "FMLPulsingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DE64B7D1CAD7ECE00AF202A /* Debug */,
+				6DE64B7E1CAD7ECE00AF202A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DE64B7F1CAD7ECE00AF202A /* Build configuration list for PBXNativeTarget "FMLPulsingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DE64B801CAD7ECE00AF202A /* Debug */,
+				6DE64B811CAD7ECE00AF202A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6DE64B821CAD7ECE00AF202A /* Build configuration list for PBXNativeTarget "FMLPulsingViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DE64B831CAD7ECE00AF202A /* Debug */,
+				6DE64B841CAD7ECE00AF202A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6DE64B851CAD7ECE00AF202A /* Build configuration list for PBXNativeTarget "FMLPulsingViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DE64B861CAD7ECE00AF202A /* Debug */,
+				6DE64B871CAD7ECE00AF202A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DE64B4A1CAD7ECE00AF202A /* Project object */;
+}
