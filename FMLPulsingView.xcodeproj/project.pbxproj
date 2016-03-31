@@ -15,6 +15,7 @@
 		6DE64B651CAD7ECE00AF202A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DE64B631CAD7ECE00AF202A /* LaunchScreen.storyboard */; };
 		6DE64B701CAD7ECE00AF202A /* FMLPulsingViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE64B6F1CAD7ECE00AF202A /* FMLPulsingViewTests.m */; };
 		6DE64B7B1CAD7ECE00AF202A /* FMLPulsingViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE64B7A1CAD7ECE00AF202A /* FMLPulsingViewUITests.m */; };
+		6DE64B8B1CAD7EF200AF202A /* FMLPulsingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE64B8A1CAD7EF200AF202A /* FMLPulsingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		6DE64B761CAD7ECE00AF202A /* FMLPulsingViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMLPulsingViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DE64B7A1CAD7ECE00AF202A /* FMLPulsingViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMLPulsingViewUITests.m; sourceTree = "<group>"; };
 		6DE64B7C1CAD7ECE00AF202A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DE64B891CAD7EF200AF202A /* FMLPulsingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMLPulsingView.h; sourceTree = "<group>"; };
+		6DE64B8A1CAD7EF200AF202A /* FMLPulsingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMLPulsingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		6DE64B541CAD7ECE00AF202A /* FMLPulsingView */ = {
 			isa = PBXGroup;
 			children = (
+				6DE64B881CAD7ED500AF202A /* FMLPulsingView */,
 				6DE64B581CAD7ECE00AF202A /* AppDelegate.h */,
 				6DE64B591CAD7ECE00AF202A /* AppDelegate.m */,
 				6DE64B5B1CAD7ECE00AF202A /* ViewController.h */,
@@ -138,6 +142,15 @@
 				6DE64B7C1CAD7ECE00AF202A /* Info.plist */,
 			);
 			path = FMLPulsingViewUITests;
+			sourceTree = "<group>";
+		};
+		6DE64B881CAD7ED500AF202A /* FMLPulsingView */ = {
+			isa = PBXGroup;
+			children = (
+				6DE64B891CAD7EF200AF202A /* FMLPulsingView.h */,
+				6DE64B8A1CAD7EF200AF202A /* FMLPulsingView.m */,
+			);
+			path = FMLPulsingView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +286,7 @@
 				6DE64B5D1CAD7ECE00AF202A /* ViewController.m in Sources */,
 				6DE64B5A1CAD7ECE00AF202A /* AppDelegate.m in Sources */,
 				6DE64B571CAD7ECE00AF202A /* main.m in Sources */,
+				6DE64B8B1CAD7EF200AF202A /* FMLPulsingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
